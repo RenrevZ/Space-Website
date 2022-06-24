@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/destination.css">
+    <title>Space tourism website |HMG</title>
+  </head>
+  <body>
+    <div class="container flex">
+      <img src="./shared/logo.svg" alt="">
+      <div class="line"></div>
+      <div class="navbar">
+        <ul>
+          <li><a href="./index.html">00 Home</a></li>
+          <li><a href="./destination-moon.html" class="active">01 Destination</a></li>
+          <li><a href="./crew-commander.html"> 02 Crew</a></li>
+          <li><a href="./technology-vehicle.html">03 Technology</a></li>
+        </ul>
+      </div>
+      <img src="./shared/icon-hamburger.svg" alt="" id="btn-open">
+      <div class="mobile_menu" id="mobile_menu">
+        <div class="  mobile_buttons">
+          <img src="./shared/icon-close.svg" alt="" id="btn-close">
+        </div>
+        <div class="items">
+        <ul>
+          <li><a href="./index.html">00 Home</a></li>
+          <li class="current"><a href="./destination-moon.html">01 Destination</a></li>
+          <li><a href="./crew-commander.html"> 02 Crew</a></li>
+          <li><a href="./technology-vehicle.html">03 Technology</a></li>
+        </ul>
+      </div>
+      </div>
+  </div>
+  <!--Main Item Destination-->
+  <div class="container-destination grid">
+    <div class="header">
+      <h2>
+        <span class="header-different">02</span>Pick your destination
+      </h2>
+      <img src="./destination/image-titan.png" alt="">
+    </div>
+    <div class="second-header">
+      <ul>
+        <li><a href="./destination-moon.html" >MOON</a></li>
+        <li><a href="./destination-mars.html" >MARS</a></li>
+        <li><a href="./destination-europa.html">EUROPA</a></li>
+        <li><a href="./destination-titan.html" class="active-destination">TITAN</a></li>
+      </ul>
+      
+      <div class="showcase" id="showcase">
+      </div>
+      <div class="showcase-result">
+         <div class="result-1" id="result-1">
+            <p>Avg. distance</p>
+         </div>
+         <div class="result-2" id="result-2">
+          <p> Est. travel time</p>
+       </div>
+      </div>
+    </div>
+  </div>
+
+<script src="./JS/titan.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+      <link rel="stylesheet" href="./css/crew.css">
+      <title>Space tourism website | HMG</title>
+    </head>
+    <body>
+      <div class="container flex">
+        <img src="./shared/logo.svg" alt="">
+        <div class="line"></div>
+        <div class="navbar">
+          <ul>
+            <li><a href="./index.html">00 Home</a></li>
+            <li><a href="./destination-moon.html" >01 Destination</a></li>
+            <li><a href="./crew-commander.html" class="active-item"> 02 Crew</a></li>
+            <li><a href="./technology-vehicle.html">03 Technology</a></li>
+          </ul>
+        </div>
+        <img src="./shared/icon-hamburger.svg" alt="" id="btn-open">
+        <div class="mobile_menu" id="mobile_menu">
+          <div class="  mobile_buttons">
+            <img src="./shared/icon-close.svg" alt="" id="btn-close">
+          </div>
+          <div class="items">
+          <ul>
+            <li><a href="./index.html">00 Home</a></li>
+            <li><a href="./destination-moon.html">01 Destination</a></li>
+            <li class="current"><a href="./crew-commander.html"> 02 Crew</a></li>
+            <li><a href="./technology-vehicle.html">03 Technology</a></li>
+          </ul>
+        </div>
+        </div>
+    </div>
+    <!--Main Item Crew-->
+      <div class="header">
+        <h2>
+          <span class="header-different">03</span> meet your crew
+        </h2>
+      </div>
+      <div class="slideshow-container">
+        <div class="caption">
+          <div class="text" id="text">
+            <!-- This where whe input the data from json -->
+          </div>
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+        <div class="img_container">
+        <div class="mySlides fade">
+          <img src="./crew/image-douglas-hurley.png" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="./crew/image-mark-shuttleworth.png">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="./crew/image-victor-glover.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="./crew/image-anousheh-ansari.png" style="width:100%">
+        </div>
+      </div>
+      </div>           
+<script src="./JS/crew.js"></script>
+</body>
+</html>

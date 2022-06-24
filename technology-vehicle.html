@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./css/technology.css">
+      <title>Space tourism website | HMG</title>
+    </head>
+    <body>
+      <div class="container flex">
+        <img src="./shared/logo.svg" alt="">
+        <div class="line"></div>
+        <div class="navbar">
+          <ul>
+            <li><a href="./index.html">00 Home</a></li>
+            <li><a href="./destination-moon.html" >01 Destination</a></li>
+            <li><a href="./crew-commander.html" > 02 Crew</a></li>
+            <li><a href="./technology-vehicle.html" class="active-item">03 Technology</a></li>
+          </ul>
+        </div>
+        <img src="./shared/icon-hamburger.svg" alt="" id="btn-open">
+        <div class="mobile_menu" id="mobile_menu">
+          <div class="  mobile_buttons">
+            <img src="./shared/icon-close.svg" alt="" id="btn-close">
+          </div>
+          <div class="items">
+          <ul>
+            <li><a href="./index.html">00 Home</a></li>
+            <li><a href="./destination-moon.html">01 Destination</a></li>
+            <li><a href="./crew-commander.html"> 02 Crew</a></li>
+            <li class="current"><a href="./technology-vehicle.html">03 Technology</a></li>
+          </ul>
+        </div>
+        </div>
+    </div>
+    <!--Main Item Crew-->
+      <div class="header">
+        <h2>
+          <span class="header-different">04</span> space launch 101
+        </h2>
+      </div>
+      <div class="slideshow-container">
+        <div class="caption">
+          <span class="dot" onclick="currentSlide(1)">
+              <span class="dotText">1</span> 
+          </span> 
+          <span class="dot" onclick="currentSlide(2)">
+            <span class="dotText">2</span> 
+          </span> 
+          <span class="dot" onclick="currentSlide(3)">
+            <span class="dotText">3</span> 
+          </span> 
+        </div>
+        <div class="text" id="text">
+          <!-- This where whe input the data from json -->
+        </div>
+        <div class="img_container">
+        <div class="mySlides fade">
+         <span class="desktop_img"><img src="./technology/image-launch-vehicle-portrait.jpg"></span>
+         <span class="tablet_img"><img src="./technology/image-launch-vehicle-landscape.jpg" alt=""></span>
+        </div>
+        
+        <div class="mySlides fade">
+          <span class="desktop_img"><img src="./technology/image-spaceport-portrait.jpg"></span>
+          <span class="tablet_img"><img src="./technology/image-spaceport-landscape.jpg"></span>
+        </div>
+        
+        <div class="mySlides fade">
+          <span class="desktop_img"><img src=".//technology/image-space-capsule-portrait.jpg"></span>
+          <span class="tablet_img"><img src=".//technology/image-space-capsule-landscape.jpg"></span>
+        </div> 
+      </div>
+<script src="./JS/technology.js"></script>
+</body>
+</html>
+
